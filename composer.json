@@ -1,0 +1,23 @@
+{
+    "name": "vectorxhd/twitter-bundle",
+    "description": "Un bundle pour utiliser l'api de twitter avec symfony",
+    "type": "symfony-bundle",
+    "keywords": ["symfony", "twitter", "bundle"],
+    "homepage": "https://github.com/VectorXHD/TwitterBundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "abraham/twitteroauth": "^0.9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "VectorXHD\\TwitterBundle\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name" : "VectorXHD",
+            "homepage": "https://github.com/VectorXHD"
+        }
+    ]
+}
