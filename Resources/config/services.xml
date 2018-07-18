@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <service id="vectorxhd_twitter.manager.twitter" class="VectorXHD\TwitterBundle\Manager\TwitterManager">
+            <argument>%vectorxhd_twitter.consumer_key%</argument>
+            <argument>%vectorxhd_twitter.consumer_secret%</argument>
+            <argument>%vectorxhd_twitter.access_token%</argument>
+            <argument>%vectorxhd_twitter.access_token_secret%</argument>
+        </service>
+    </services>
+</container>
